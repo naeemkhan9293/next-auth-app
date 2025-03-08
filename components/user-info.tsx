@@ -5,6 +5,7 @@ interface UserInfoProps {
 }
 
 export const UserInfo = ({ label }: UserInfoProps) => {
+  
   return (
     <Card className="w-[600px] shadow-md">
       <CardHeader>
